@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A4F4B1F3-5DE3-4450-8CCD-A0D24DE7079E}</ProjectGuid>
+    <ProjectGuid>{A06D2BC5-74E1-4FE9-AE75-524A3227B27F}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lesson01</RootNamespace>
-    <AssemblyName>Lesson01</AssemblyName>
+    <RootNamespace>Lesson05_jQuery</RootNamespace>
+    <AssemblyName>Lesson05_jQuery</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -66,7 +66,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index2.html" />
+    <Content Include="index3.html" />
     <Content Include="packages.config" />
+    <Content Include="Scripts\index2.js" />
+    <Content Include="Scripts\index3.js" />
+    <Content Include="Scripts\jquery-2.1.0.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,16 +80,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AboutArrays.html" />
-    <Content Include="Calculator.html" />
-    <Content Include="Index.html" />
-    <Content Include="Index02.html" />
-    <Content Include="SalaryCount.html" />
-    <Content Include="Scripts\AboutArrays.js" />
-    <Content Include="Scripts\Calculator.js" />
-    <Content Include="Scripts\Index.js" />
-    <Content Include="Scripts\Index02.js" />
-    <Content Include="Scripts\SalaryCount.js" />
+    <None Include="Scripts\jquery-2.1.0.intellisense.js" />
+    <None Include="Scripts\jquery-2.1.0-vsdoc.js" />
+    <Content Include="index.html" />
+    <Content Include="Scripts\index.js" />
+    <Content Include="Scripts\jquery-2.1.0.js" />
+    <Content Include="Scripts\jquery-2.1.0.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -103,9 +104,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>13315</DevelopmentServerPort>
+          <DevelopmentServerPort>5945</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:13315/</IISUrl>
+          <IISUrl>http://localhost:5945/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

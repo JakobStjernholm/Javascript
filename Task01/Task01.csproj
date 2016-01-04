@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A4F4B1F3-5DE3-4450-8CCD-A0D24DE7079E}</ProjectGuid>
+    <ProjectGuid>{B6C382DD-B68B-4C44-9939-C29551D4ADBD}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lesson01</RootNamespace>
-    <AssemblyName>Lesson01</AssemblyName>
+    <RootNamespace>Task01</RootNamespace>
+    <AssemblyName>Task01</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -75,21 +75,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AboutArrays.html" />
-    <Content Include="Calculator.html" />
-    <Content Include="Index.html" />
-    <Content Include="Index02.html" />
-    <Content Include="SalaryCount.html" />
-    <Content Include="Scripts\AboutArrays.js" />
-    <Content Include="Scripts\Calculator.js" />
-    <Content Include="Scripts\Index.js" />
-    <Content Include="Scripts\Index02.js" />
-    <Content Include="Scripts\SalaryCount.js" />
+    <Content Include="HTMLPages\HtmlPage01.html" />
+    <Content Include="Scripts\HtmlPage01.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -103,9 +96,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>13315</DevelopmentServerPort>
+          <DevelopmentServerPort>18490</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:13315/</IISUrl>
+          <IISUrl>http://localhost:18490/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

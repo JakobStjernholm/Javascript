@@ -1,0 +1,112 @@
+﻿{ 
+  "fathers" : [ 
+    { 
+      "id" : 0,
+      "married" : false,
+      "name" : "Donald Smith",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 29,
+          "name" : "Donna"
+          },
+        { 
+          "age" : 0,
+          "name" : "Linda"
+          }
+        ]
+      },
+    { 
+      "id" : 1,
+      "married" : true,
+      "name" : "Jeffrey Taylor",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 20,
+          "name" : "Sharon"
+          },
+        { 
+          "age" : 12,
+          "name" : "Angela"
+          },
+        { 
+          "age" : 13,
+          "name" : "Carol"
+          }
+        ]
+      },
+    { 
+      "id" : 2,
+      "married" : false,
+      "name" : "Daniel Moore",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 20,
+          "name" : "Susan"
+          },
+        { 
+          "age" : 7,
+          "name" : "Dorothy"
+          },
+        { 
+          "age" : 27,
+          "name" : "Sandra"
+          }
+        ]
+      },
+    { 
+      "id" : 3,
+      "married" : false,
+      "name" : "Paul Anderson",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 5,
+          "name" : "Amy"
+          },
+        { 
+          "age" : 19,
+          "name" : "Brenda"
+          }
+        ]
+      },
+    { 
+      "id" : 4,
+      "married" : false,
+      "name" : "James Wilson",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 23,
+          "name" : "Ruth"
+          },
+        { 
+          "age" : 13,
+          "name" : "Patricia"
+          },
+        { 
+          "age" : 9,
+          "name" : "Linda"
+          }
+        ]
+      },
+    { 
+      "id" : 5,
+      "married" : true,
+      "name" : "Gary Clark",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 25,
+          "name" : "Dorothy"
+          },
+        { 
+          "age" : 26,
+          "name" : "Donna"
+          }
+        ]
+      }
+    ]
+  }

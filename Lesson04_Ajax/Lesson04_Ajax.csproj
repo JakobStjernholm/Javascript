@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A4F4B1F3-5DE3-4450-8CCD-A0D24DE7079E}</ProjectGuid>
+    <ProjectGuid>{9A2CCE04-F0CA-4D37-B32A-42E34013DCD8}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lesson01</RootNamespace>
-    <AssemblyName>Lesson01</AssemblyName>
+    <RootNamespace>Lesson04_Ajax</RootNamespace>
+    <AssemblyName>Lesson04_Ajax</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="json.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,20 +76,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AboutArrays.html" />
-    <Content Include="Calculator.html" />
-    <Content Include="Index.html" />
-    <Content Include="Index02.html" />
-    <Content Include="SalaryCount.html" />
-    <Content Include="Scripts\AboutArrays.js" />
-    <Content Include="Scripts\Calculator.js" />
-    <Content Include="Scripts\Index.js" />
-    <Content Include="Scripts\Index02.js" />
-    <Content Include="Scripts\SalaryCount.js" />
+    <Content Include="index.html" />
+    <Content Include="index3.html" />
+    <Content Include="Music.xml" />
+    <Content Include="Plants.xml" />
+    <Content Include="Scripts\index.js" />
+    <Content Include="Scripts\index2.js" />
+    <Content Include="Scripts\index3.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Styles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -103,9 +104,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>13315</DevelopmentServerPort>
+          <DevelopmentServerPort>35847</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:13315/</IISUrl>
+          <IISUrl>http://localhost:35847/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

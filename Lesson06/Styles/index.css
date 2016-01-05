@@ -24,6 +24,72 @@ li {
     text-transform: uppercase;
 }
 #update {
-    
+    width: 80%;
+    margin: 10px auto;
+    border-top: 2px dotted blue;
+}
+#update ul {
+    margin: 0;
+    padding: 0;
+}
+#update ul li {
+    max-width: 100%;
+    padding: 0 20px;
+    background-color: orange;
+    padding-bottom: 10px;
+    height: 100px;
+    overflow: hidden;
+    border-bottom: 1px dotted blue;
+    /*animering*/
+    -webkit-animation: goof 1s;
+    -moz-animation: goof 1s;
+    -ms-animation: goof 1s;
+    -o-animation: goof 1s;
+    animation: goof 1s;
+    -webkit-transition: height 0.3s ease-out;
+    -moz-transition: height 0.3s ease-out;
+    -ms-transition: height 0.3s ease-out;
+    -o-transition: height 0.3s ease-out;
+    transition: height 0.3s ease-out;
 }
 
+#update li:hover {
+    background-color: orchid;
+    height: 250px;
+    min-height: 100px;
+    overflow: visible;
+
+}
+#update img {
+    float: left;
+    width: 80px;
+    margin-left: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+}
+@-moz-keyframes goof {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1.0;
+    }
+    }
+
+@-webkit-keyframes goof {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1.0;
+    }
+    }
+
+@keyframes goof {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1.0;
+    }
+    }

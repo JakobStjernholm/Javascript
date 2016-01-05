@@ -10,8 +10,9 @@
                     output += "<li>";
                     output += "<p>";
                     output += "<strong>" + val.name + "</strong>";
+                    output += "<br><img alt='" + val.name + "' class='img-rounded img' src='\Images/" + val.url_image + "'><br>";
                     output += val.master_degree;
-                    output += "<br><img alt='" + val.name + "' class='img-rounded img' src='\Images/" + val.url_image + "'>";
+
                     output += "</p>";
                     output += "</li>";
                 }

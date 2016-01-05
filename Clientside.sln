@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson05_jQuery", "Lesson05
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson05_jQuery_A", "Lesson05_jQuery_A\Lesson05_jQuery_A.csproj", "{EE2E0888-DFB9-4339-B227-F10D60BAB7CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson06", "Lesson06\Lesson06.csproj", "{4614E64C-7B7E-4243-8ACA-93686B4CC1F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{EE2E0888-DFB9-4339-B227-F10D60BAB7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE2E0888-DFB9-4339-B227-F10D60BAB7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE2E0888-DFB9-4339-B227-F10D60BAB7CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4614E64C-7B7E-4243-8ACA-93686B4CC1F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4614E64C-7B7E-4243-8ACA-93686B4CC1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4614E64C-7B7E-4243-8ACA-93686B4CC1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4614E64C-7B7E-4243-8ACA-93686B4CC1F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

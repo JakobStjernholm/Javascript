@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{EE2E0888-DFB9-4339-B227-F10D60BAB7CC}</ProjectGuid>
+    <ProjectGuid>{4614E64C-7B7E-4243-8ACA-93686B4CC1F8}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lesson05_jQuery_A</RootNamespace>
-    <AssemblyName>Lesson05_jQuery_A</AssemblyName>
+    <RootNamespace>Lesson06</RootNamespace>
+    <AssemblyName>Lesson06</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -74,18 +74,24 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="wt_data.json" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Giuseppe_Schembri.PNG" />
+    <Content Include="Images\ipman.PNG" />
+    <Content Include="Images\Keith_Kernspecht.PNG" />
+    <Content Include="Images\Lars_olsson.PNG" />
+    <Content Include="Images\Leung_Ting.PNG" />
+    <Content Include="Images\Michael_Stieler.PNG" />
+    <Content Include="Images\Oliver_Konig.PNG" />
+    <Content Include="Images\Thomas_Schron.PNG" />
+    <Content Include="index.html" />
+    <Content Include="Scripts\index.js" />
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
     <None Include="Scripts\jquery-2.1.0-vsdoc.js" />
-    <Content Include="index.html" />
-    <Content Include="index2.html" />
-    <Content Include="index3.html" />
-    <Content Include="Scripts\index.js" />
-    <Content Include="Scripts\index2.js" />
-    <Content Include="Scripts\index3.js" />
     <Content Include="Scripts\jquery-2.1.0.js" />
     <Content Include="Scripts\jquery-2.1.0.min.js" />
+    <Content Include="Styles\index.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -104,9 +110,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>2605</DevelopmentServerPort>
+          <DevelopmentServerPort>5778</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:2605/</IISUrl>
+          <IISUrl>http://localhost:5778/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
